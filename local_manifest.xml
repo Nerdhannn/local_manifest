@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="Nerdhannn"
+           fetch="https://github.com/Nerdhannn" />
+
+<remote  name="RyuujiX"
+           fetch="https://github.com/RyuujiX" />
+    
+<remote  name="Atom-X-Devs"
+           fetch="https://github.com/Atom-X-Devs" />
+           
+ <!-- Trees -->
+ <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="Nerdhannn" revision="12-4.19" />
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Nerdhannn" revision="12-4.19" />
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="Nerdhannn" revision="12-4.19" />
+ <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="RyuujiX" revision="r2/s" />
+
+ <!-- Hardware -->
+ <remove-project name="android_hardware_qcom_media" />
+ <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media" remote="Atom-X-Devs" revision="sdm660-12" />
+ <remove-project name="android_hardware_qcom_audio" />
+ <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio" remote="Atom-X-Devs" revision="sdm660-12" />
+ <remove-project name="android_hardware_qcom_display" />
+ <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display" remote="Atom-X-Devs" revision="sdm660-12" />
+</manifest>
