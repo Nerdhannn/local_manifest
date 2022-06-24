@@ -7,8 +7,8 @@
 <remote  name="Nerdhannn"
            fetch="https://github.com/Nerdhannn" />
 
-<remote  name="RyuujiX"
-           fetch="https://github.com/RyuujiX" />
+<remote  name="aospa-sdm660"
+           fetch="https://github.com/aospa-sdm660" />
     
 <remote  name="Atom-X-Devs"
            fetch="https://github.com/Atom-X-Devs" />
@@ -32,5 +32,5 @@
  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="Nerdhannn" revision="12-4.19" />
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Nerdhannn" revision="12-4.19" />
  <project path="vendor/asus" name="proprietary_vendor_asus" remote="Nerdhannn" revision="12-4.19" />
- <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="RyuujiX" revision="r2/s" />
+ <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="aospa-sdm660" revision="sapphire-standalone" />
 </manifest>
