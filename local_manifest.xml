@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="GitLab"
+           fetch="https://gitlab.com" />
+
 <remote  name="Nerdhannn"
            fetch="https://github.com/Nerdhannn" />
 
@@ -22,6 +25,9 @@
  <remove-project name="xd_frameworks_base" />
  <project path="frameworks/base" name="xd_frameworks_base" remote="Nerdhannn" revision="twelve" />
            
+ <!-- Prebuilts -->
+ <project path="prebuilts/clang/host/linux-x86/clang-atom" name="ElectroPerf/atom-x-clang" remote="GitLab" revision="atom-15" />
+
  <!-- Trees -->
  <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="Nerdhannn" revision="12-4.19" />
  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Nerdhannn" revision="12-4.19" />
