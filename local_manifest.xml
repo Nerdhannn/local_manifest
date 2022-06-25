@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="GitLab"
-           fetch="https://gitlab.com" />
+<remote  name="GitHub"
+           fetch="https://github.com" />
 
 <remote  name="Nerdhannn"
            fetch="https://github.com/Nerdhannn" />
@@ -20,7 +20,8 @@
  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio" remote="Atom-X-Devs" revision="sdm660-12" />
  <remove-project name="android_hardware_qcom_display" />
  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display" remote="Atom-X-Devs" revision="sdm660-12" />
- 
+ <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="GitHub" revision="lineage-19.1" />
+           
  <!-- xdOSS Repo -->
  <remove-project name="xd_frameworks_base" />
  <project path="frameworks/base" name="xd_frameworks_base" remote="Nerdhannn" revision="twelve" />
