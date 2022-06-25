@@ -21,9 +21,11 @@
  <remove-project name="android_hardware_qcom_display" />
  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display" remote="Atom-X-Devs" revision="sdm660-12" />
  
- <!-- Frameworks -->
+ <!-- xdOSS Repo -->
  <remove-project name="xd_frameworks_base" />
  <project path="frameworks/base" name="xd_frameworks_base" remote="Nerdhannn" revision="twelve" />
+ <remove-project name="xd_vendor_xdroid" />
+ <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="Nerdhannn" revision="twelve" />
            
  <!-- Prebuilts -->
  <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="SDClang" remote="Nerdhannn" revision="14" />
