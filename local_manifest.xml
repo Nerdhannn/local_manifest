@@ -32,8 +32,8 @@
  <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="SDClang" remote="Nerdhannn" revision="14" />
 
  <!-- Trees -->
- <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="Nerdhannn" revision="12-4.19" />
- <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Nerdhannn" revision="12-4.19" />
- <project path="vendor/asus" name="proprietary_vendor_asus" remote="Nerdhannn" revision="12-4.19" />
- <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="Ryuujix" revision="r2/s" />
+ <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="Nerdhannn" revision="rebase-4.19" />
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Nerdhannn" revision="rebase-4.19" />
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="Nerdhannn" revision="rebase-4.19" />
+ <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="Ryuujix" revision="test" />
 </manifest>
