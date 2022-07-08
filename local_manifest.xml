@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote -->
-  <remote name="github" fetch="https://github.com" />
+  <remote name="githubtrack" fetch="https://github.com" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/google/pixel" />
-  <project path="hardware/google/pixel" name="Nerdhannn/android_hardware_google_pixel" groups="generic_fs,pixel" remote="github" revision="sc-v2" />
+  <project path="hardware/google/pixel" name="Nerdhannn/android_hardware_google_pixel" groups="generic_fs,pixel" remote="githubtrack" revision="sc-v2" />
   <remove-project name="android_hardware_qcom_media" />
-  <project path="hardware/qcom-caf/sdm660/media" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media" remote="github" revision="sdm660-12" />
+  <project path="hardware/qcom-caf/sdm660/media" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media" remote="githubtrack" revision="sdm660-12" />
   <remove-project name="android_hardware_qcom_audio" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio" remote="github" revision="sdm660-12" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio" remote="githubtrack" revision="sdm660-12" />
   <remove-project name="android_hardware_qcom_display" />
-  <project path="hardware/qcom-caf/sdm660/display" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display" remote="github" revision="sdm660-12" />
+  <project path="hardware/qcom-caf/sdm660/display" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display" remote="githubtrack" revision="sdm660-12" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="Nerdhannn/SDClang" remote="Nerdhannn" revision="14" />
+  <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="Nerdhannn/SDClang" remote="githubtrack" revision="14" />
 </manifest>
