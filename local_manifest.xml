@@ -15,4 +15,9 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="Nerdhannn/SDClang" remote="githubtrack" revision="14" />
+  
+  <!-- Trees -->
+  <project path="device/asus/X01BD" name="Nerdhannn/android_device_asus_X01BD" remote="Nerdhannn" revision="rebase-4.19" />
+  <project path="device/asus/sdm660-common" name="Nerdhannn/android_device_asus_sdm660-common" remote="Nerdhannn" revision="rebase-4.19-eas" />
+  <project path="vendor/asus" name="Nerdhannn/proprietary_vendor_asus" remote="Nerdhannn" revision="rebase-4.19" />
 </manifest>
